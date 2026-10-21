@@ -1,0 +1,18 @@
+/* Responsive layout: laptop, tablet, mobile */
+@media (max-width:1180px){
+  .burger{display:block}
+  .icon-btn{order:2}
+  .links{display:none;position:absolute;left:0;right:0;top:100%;background:var(--card);border-bottom:1px solid var(--bd);flex-direction:column;padding:.6rem 1.25rem;margin:0}
+  .links.open{display:flex}
+  .links a{font-size:1rem;padding:.65rem .8rem}
+}
+@media (max-width:860px){
+  .hero{padding:2.5rem 0}.hero-in{grid-template-columns:1fr}
+}
+@media (max-width:600px){
+  .wrap{padding:0 1rem}
+  .bar select,.bar .btn{flex:1 1 45%;width:100%}
+  .prof{flex-direction:column;align-items:flex-start}
+  .toasts{left:1rem}
+  .row .btn{flex:1 1 auto}
+}
